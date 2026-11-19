@@ -1,0 +1,74 @@
+
+/* Flip volume bar turnways */
+.ytdVolumeControlsSliderContainerVerticalDown {
+    transform: none !important;
+}
+
+/* Remove vertical gap from mute button to slider */
+.ytdVolumeControlsVolumeControlsContainerVertical {
+    max-width: 148px !important;
+    width: 148px !important;
+    gap: unset !important;
+    padding: unset !important;
+}
+
+/* Make volume button wider */
+.ytdVolumeControlsNativeSlider::-moz-range-thumb {
+    width: 32px !important;
+    border-radius: unset !important;
+}
+
+/* Remove volume gutter border radius */
+.ytdVolumeControlsVolumeControlsContainer {
+    border-radius: unset !important;
+}
+
+.ytdVolumeControlsSliderContainerVertical {
+    border-radius: unset !important;
+    min-height: 32px !important;
+    padding: 0 20px !important;
+    margin: 0 !important;
+    position: relative !important;
+    bottom: 20px !important;
+}
+
+/* Width control */
+.ytdVolumeControlsHost {
+    max-width: 180px !important;
+}
+
+/* Remove transition */
+.ytdVolumeControlsSliderContainerVerticalExpanded {
+    transition: none !important;
+}
+
+/* Video title */
+.ytmVideoInfoVideoTitle {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+}
+
+/* Video title overflow */
+.ytmVideoInfoVideoTitleContainer {
+    overflow: visible !important;
+    margin-right: -40px !important;
+}
+
+/* CC button */
+.ytmClosedCaptioningButtonHost {
+    position: absolute !important;
+    bottom: -37px !important;
+    left: 8px !important;
+}
+
+/* Settings button */
+.ytwPlayerTopControlsPlayerControlsTopRight > div:nth-child(3) {
+    position: absolute !important;
+    right: 0 !important;
+    top: 2px !important;
+}
+
+/* All controls container right */
+ytm-custom-control .player-controls-top {
+    right: 0 !important;
+}
